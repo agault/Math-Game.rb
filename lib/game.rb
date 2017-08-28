@@ -26,9 +26,9 @@ class Game
 
   def response(correct)
     if correct
-      puts "Player #{@current_player + 1}: Hooray! Nicely done."
+      puts "Player #{@current_player + 1}: YYYAAAASSS."
     else
-      puts "Player #{@current_player + 1}: ZOMG No NO NO!"
+      puts "Player #{@current_player + 1}: OH NO!"
     end
   end
 
